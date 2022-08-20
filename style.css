@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito Sans", sans-serif;
+  }
+  /*header content*/
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0 60px;
+    margin: 0 auto;
+    width: 80%;
+  }
+  
+  .logo-container {
+    height: 40px;
+    width: 100px;
+  }
+  .logo-container > img {
+    width: 100%;
+  }
+  
+  .hero-banner {
+    height: 550px;
+    width: 100%;
+  }
+  
+  .hero-banner img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .main-menu span {
+    margin: 0 25px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .main-menu span:first-child {
+    border-bottom: 5px solid #6155c5;
+    color: rgb(0, 0, 0);
+  }
+  
+  .main-menu span:hover {
+    margin: 0 25px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    border-bottom: 5px solid #6155c5;
+    color: rgb(0, 0, 0);
+  }
+  
+  .your-ac-btn {
+    background-color: #ffd8db;
+    border: none;
+    height: 50px;
+    width: 120px;
+    border-radius: 22px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #5142bf;
+    cursor: pointer;
+  }
+  /*main content start from here*/
+  .stunning-head {
+    font-size: 70px;
+    font-weight: 900;
+    color: #000;
+  }
+  
+  .new-acc-btn {
+    background-color: #5243c0;
+    border: none;
+    height: 50px;
+    width: 120px;
+    border-radius: 22px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #ffff;
+    cursor: pointer;
+  }
+  .account-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .dot {
+    color: #6155c5;
+  }
+  main {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .right-container {
+    padding: 0 25px;
+  }
+  .right-container p {
+    margin: 10px 0 25px 0;
+  }
+  .account-container .new-acc-btn {
+    margin-right: 10px;
+  }
+  .account-container img {
+    margin-right: 10px;
+  }
+  .account-container {
+    margin-bottom: 70px;
+  }
+  /*Card Section*/
+  .dmm-card {
+    background-color: #f6f6f6; /*#f6f6f6*/
+    display: flex;
+    align-items: center;
+    width: 350px;
+    height: 50px;
+    padding: 0 15px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.4);
+    margin: 10px;
+    cursor: pointer;
+  }
+  .card-main span {
+    color: #000;
+  }
+  .card-color {
+    height: 18px;
+    width: 35px;
+    border-radius: 9px;
+  }
+  .pink {
+    background-color: #fed7da;
+  }
+  .orange {
+    background-color: #fd6534;
+  }
+  .blue {
+    background-color: #9ed095;
+  }
+  .red {
+    background-color: #ffe4a0;
+  }
+  .card-main {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    text-align: left;
+  }
+  
+  .card-other {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .card-other span:hover {
+    color: #000;
+  }
+  .eff-hover:hover {
+    background-color: #ffff;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    color: #000;
+  }
+  
+  .check-box {
+    position: relative;
+    margin: 0 10px 0 0;
+  }
+  .tick-gray {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+  }
+  .eff-hover:hover .tick-gray {
+    display: none;
+  }
+  footer {
+    height: 60px;
+    width: 100%;
+  }
+  
